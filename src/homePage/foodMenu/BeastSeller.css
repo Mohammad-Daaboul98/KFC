@@ -1,0 +1,8 @@
+.Seller__card{
+    background-image: url('../../asset/Sealer.png');
+    background-size: cover;
+    /* height: 30rem; */
+    width: 30rem;
+    height: 40rem;
+    border-radius: 10px;
+}

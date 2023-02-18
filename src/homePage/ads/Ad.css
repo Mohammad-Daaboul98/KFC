@@ -1,0 +1,22 @@
+.ad__box{
+    display: flex;
+    flex-direction: column;
+    align-content:space-between;
+}
+
+.ad__row{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 10px;
+;
+}
+.ad-1,.ad-2,.ad-3,.ad-4{
+    width: 49%;
+}
+
+.ad__img{
+    width: 100%;
+}

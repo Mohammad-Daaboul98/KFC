@@ -1,0 +1,70 @@
+.deal__card{
+    width: 30rem;
+}
+.deal__box{
+    position: relative;
+    top: 40px;
+    text-align: center;
+}
+
+.deal__photo{
+    width: 100%;
+}
+
+.deal__heading{
+    height: 30rem;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+}
+.deal__like{
+    align-self: flex-end;
+    /* color: transparent; */
+    font-size: 3rem;
+    font-weight:lighter;
+    color: rgb(220, 101, 101);
+    cursor: pointer;
+}
+.deal__like:hover{
+    color: red;
+
+}
+.deal__header{
+    position: relative;
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline-block;
+}
+.deal__header::after{
+    content: "";
+    position: absolute;
+    top: 150%;
+    left: 0;
+    width: 100%; 
+    height: 2px;
+    border-radius: 10px;
+    background-color: #eee;
+  }
+
+.deal__paragraph{
+    align-content: flex-start;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #393f52;
+    margin-top: 1rem;
+}
+.deal__price{
+    margin-top: auto;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1.5rem 2rem;
+    border:none;
+    border-radius: 10px;
+    background-color: #f0f4fa;
+    color: #393f52;
+
+}

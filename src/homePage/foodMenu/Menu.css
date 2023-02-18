@@ -1,0 +1,43 @@
+.svg {
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+.menu__card{
+  width: 25rem; 
+ 
+}
+
+.menu__photo{
+  position: absolute;
+  top: -1.5rem;
+  width: 25rem;
+  z-index: 9;
+}
+.menu__heading{
+  padding: 4rem 3rem;
+  height: 25rem;
+  background-color: #fff;
+  -webkit-clip-path: url(#my-clip-path);
+  clip-path: url(#my-clip-path);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+.menu__paragraph{
+  position: relative;
+  font-size: 2.5rem;
+  display: inline-block;;
+}
+.menu__paragraph::after{
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 30%;
+  width: 40%; 
+  height: 3px;
+  border-radius: 10px;
+  background-color: green;
+}

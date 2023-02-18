@@ -1,0 +1,11 @@
+.nav{
+    padding: 2rem 2rem;
+    display: flex;
+    background-color: #fff;    align-items: center;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .3);
+}
+
+.nav_logo{
+    margin-left: 6rem;
+    cursor: pointer;
+}
